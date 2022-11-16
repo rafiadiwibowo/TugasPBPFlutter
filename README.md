@@ -22,3 +22,26 @@ Final (variabel yang menggunakan keyword final) diinialisasi pada saat pertama k
 
 ## Pengimplementasian checklist
 Menambahkan ```_decrementcounter()``` untuk melakukan decrement pada counter dan menambahkan ```_typecheck``` untuk melakukan pengecekan apakah angka yang dimunculkan oleh widget tersebut GENAP atau GANJIL. Membuat ```FloatingActionButton``` yang dimasukkan kedalam Scaffold untuk meampilkan semua counter dan juga button-button tersebut
+
+# Tugas 8: Elemen Dasar Flutter
+
+## Perbedaan ```Navigator.push``` dan ```Navigator.pushReplacement```
+```Navigator.push```: Metode push digunakan untuk menambahkan rute lain ke atas tumpukan screen (stack) saat ini. Halaman baru ditampilkan di atas halaman sebelumnya.
+```Navigator.pushReplacement```: Melakukan push juga untuk me-routing user ke halaman yang baru.
+
+## Widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+- DropdownButtonFormField: Untuk menu dropdown user input
+- Form: Untuk user melakukan input dan menampung elemen fields dan disimpan
+- ListTile: Menyimpan data di dalam widget lalu dimasukkan ke dalam cards.
+- Card: Untuk penampung data hasil input dan akan ditampilkan
+
+## Jenis-jenis event yang ada pada Flutter
+- onpressed: Sebagai trigger jika button ditekan
+- onChanged: Sebagai penerima input selama pengguna sedang melakukan perubahan terhadap value yang dimiliki
+- onSaved: Sebagai penyimpan jika form tersebut disimpan oleh FormState.save
+
+## Cara kerja ```Navigator```
+Dengan memanfaatkan konsep stack, yang mana flutter akan melakukan push ke halaman yang ingin dijalankan dan juga dapat menggunakan pop untuk kembali kehalaman sebelumnya
+
+## Mengimplementasikan chechlist di atas
+Membuat file baru yaitu ```form.dart``` dan juga ```data.dart``` dan mengimplementasikan appbar pada setiap file dan . Lalu,  membuat drawer pada masing-masing file supaya bisa pindah-pindah halaman. Membuat widget-widget yang dibutuhkan pada ```form.dart```, dan membuat class pada ```data.dart``` untuk menyimpan input dari ```form.dart``` tersebut. Kemudiang mengimplementasikan ListView untuk menampilkan data-data tersebut.
