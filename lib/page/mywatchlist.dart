@@ -78,7 +78,7 @@ class _MyWatchListState extends State<MyWatchListPage> {
                 },
             ),
             ListTile(
-                title: const Text('Watchlist'),
+                title: const Text('My Watch List'),
                 onTap: () {
                     // Route menu ke halaman form
                     Navigator.pop(

@@ -1,4 +1,6 @@
 import 'package:counter_7/main.dart';
+import 'package:counter_7/model/watch_list.dart';
+import 'package:counter_7/page/mywatchlist.dart';
 import 'package:flutter/material.dart';
 import 'package:counter_7/page/data.dart';
 
@@ -64,7 +66,7 @@ class _MyFormPageState extends State<MyFormPage> {
                         // Route menu ke halaman form
                         Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => const MyDataPage()),
+                        MaterialPageRoute(builder: (context) => const MyWatchListPage()),
                         );
                     },
                 ),
