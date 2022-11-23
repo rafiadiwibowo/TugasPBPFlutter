@@ -45,3 +45,14 @@ Dengan memanfaatkan konsep stack, yang mana flutter akan melakukan push ke halam
 
 ## Mengimplementasikan chechlist di atas
 Membuat file baru yaitu ```form.dart``` dan juga ```data.dart``` dan mengimplementasikan appbar pada setiap file dan . Lalu,  membuat drawer pada masing-masing file supaya bisa pindah-pindah halaman. Membuat widget-widget yang dibutuhkan pada ```form.dart```, dan membuat class pada ```data.dart``` untuk menyimpan input dari ```form.dart``` tersebut. Kemudiang mengimplementasikan ListView untuk menampilkan data-data tersebut.
+
+# Tugas 9: Integrasi Web Service pada Flutter
+
+## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+
+## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+
+## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+
+## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+
