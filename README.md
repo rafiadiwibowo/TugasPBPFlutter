@@ -49,10 +49,22 @@ Membuat file baru yaitu ```form.dart``` dan juga ```data.dart``` dan mengimpleme
 # Tugas 9: Integrasi Web Service pada Flutter
 
 ## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+Kita dapat mengambil data JSON tanpa perlu membuat model, tetapi cara tersebut tidak baik karena dengan membuat model akan memudahkan kita untuk membuat data tersebut. Dengan model juga kita dapat memastikan tipe data tersebut sesuai dengan model yang kita buat.
 
 ## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+Widget yang digunakan banyak yang sama dengan widget tugas sebelumnya, namun ada tambahan pada widget seperti:
+- ```ListView```: Untuk menampilkan data-data sesuai dengan posisi yang diinginkan
+-```ListTile```: Untuk menampilkan data-data sesuai dengan posisi yang diinginkan dan juga menjalankan perintah lainnya
+-```FutureBuilder```: Digunakan untuk asinkronus data
 
 ## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+- Dengan menambahkan ```flutter pub add http``` dan menamnahkan tambahan kode pada ```AndroidManifest.xml```
+- Membuat folder ```model``` yang diambil dari quicktype untuk memudahkan dalam menulis model tersebut
+- Menambahkan page untuk menampilkan halaman-halaman dari data yang sudah dibuat tersebut
 
 ## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
-
+- Menambahkan drawer pada masing-masing page untuk mengakses watchlist tersebut
+- Membuat model yang diambil dari quicktype tersebut untuk memudahkan pengerjaan
+- Membuat file yang digunakan untuk menampilkan data json tersebut
+- Menampilkan data json yang sudah diambil tadi di dalam ListTile.
+- Menambahkan tombol back untuk kembali dari page watchlist tersebut.
